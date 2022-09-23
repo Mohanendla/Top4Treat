@@ -1,0 +1,48 @@
+body{
+    background-color:#f9f9d5 ;   
+    padding-inline-start: 10%;
+    padding-right: 15%;
+    margin: 1%;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial;
+    color: rgb(68, 5, 126);
+}
+
+h2{
+    color: rgb(166, 7, 7);
+    
+}
+
+h3{
+    color: rgb(166, 7, 7);
+}
+
+.img{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.text{
+    color: rgb(10, 10, 120);
+}
+
+span{
+    color: rgb(10, 10, 120);
+}
+
+.bg{
+    color: rgb(67, 79, 9);
+}
+
+.no{
+    color: rrgb(67, 79, 9);
+}
+
+.ind{
+    color: rgb(175, 74, 19);
+}

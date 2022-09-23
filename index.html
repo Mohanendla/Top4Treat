@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Alignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+    <h1>Hello Accio ka Gyaan logo</h1>
+
+    <div>
+        <h2>Welcome to MM Restaurant</h2>
+    <span
+      >We have a table and four plates. Throughout this blog, we will try to
+      learn how to align the plates differently for our Top 4 in contest by
+      using Flexbox, Grid and about Background Property..
+    </span>
+    <br />
+    <br />
+    <strong style="color: rgb(9, 89, 9);"> Make sure you’re not hungry when reading this. :)</strong>
+    <br />
+    <br />
+    <div>
+      <img class="img"
+        src="https://ishadeed.com/assets/box-alignment/img/plates@2x.png"
+        alt="4 Plates"
+        height="126px"
+        width="306px"
+      />
+ 
+      <br />
+      <br />
+    </div>
+
+      <div>
+        <img class="img"
+        src="./img0.png" alt="Table"
+          height="246px"
+          width="458px"
+        />
+      </div>
+    </div>
+
+    <h2>1. Plates Size</h2>
+    <span
+      >To start, I added a width and height for the plates. Since the plates are
+      block elements, each one of them is in its own line.</span
+    >
+    <br /><br />
+    <div><img class="img" src="./img1.png" alt="img1" height="350px" width="450px" /></div>
+        </div>
+    <div>
+        
+    <h2>2. Flexbox</h2>
+    <p class="text">
+      To start, we should add display: flex to the .table element. .c-table {
+      display: flex; } 
+      <br><br>
+      Notice that the plates are next to each other. 
+      Since
+      flexbox is a single layout direction, the flex items are either aligned in
+      rows or columns. The default is rows.
+    </p>
+
+    <img class="img" src="./img2.png" alt="img3" height="350px" width="450px">
+
+</div>
+   <h2>3. Flexbox - Justify Content</h2>
+   <p class="text">The justify-content works on the main axis of the flex container.</p>
+   <p class="text">To have an equal spacing between the plates across the main axis, I added justify-content: space-between. See the result in the following figure.</p>
+
+   <img class="img" src="./img3.png" alt="img4" height="350px" width="450px">
+
+     <div> 
+        <h2>4. Flexbox - Align Items/Self</h2>
+   <h3>4.1: Align Items</h3>
+        
+    <p class="text" > By default, align-items works on the cross axis. I added align-items: center to center the plates vertically.</p>
+  
+            <img class="img" src="./img5.png" alt="img4" height="350px" width="450px">
+    </div>
+
+    <div> 
+    
+   <h3> 4.2:Align Self</h3>
+        <p class="text">
+            Let's suppose that we have some custom alignment requests from our Top4. The first and last plates needs to be aligned differntly. For that purpose, we can use align-self on those flex items.</p>
+  
+            <img class="img" src="./img4.png" alt="img4" height="350px" width="450px">
+    </div>
+    <br>
+    <hr style="color: red 10px solid">
+     
+        <h2>Movie Zone</h2>
+        <p class="text">After having lunch there is a movie zone we can see recent new films, will try to learn new details from this. 
+            <br><br>
+            We have Regional films as Shown below but End of the Day they are Indian films. Any regional film can be addressed as Indian Film.
+            <br> <br>
+            Same as Background-color or bg-image etc can be directly attempted by Background property.
+            
+
+        </p>
+                
+        <p class="bg" > <b>background</b> (PAN INDIAN FILM)</p>
+        <P class="bg"> <b>background-Color</b> (Tollywood)</P>
+        <P class="bg"> <b>background-repeat</b> (Sandalwood)</P>
+        <p class="bg"> <b> background-image</b> (Bollywood)</p>
+        <p class="bg"> <b>background-position</b> (kollywood)</p>
+
+        <p class="no"><Strong>(No Offense just for an example to Understand i tired this also Train is an Example Central trains and Local Trains can be used)</Strong></p>
+    
+        <p class="ind"> <b> background-color : rgb(166, 7, 7);</b>   &nbsp;      &nbsp;  Tollywood : RRR;
+          <br>
+          <b>background: rgb(166, 7, 7); </b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Indian Film : RRR;</P>
+<div>
+        <img class="img" src="https://static.toiimg.com/photo/msid-90532907/90532907.jpg" alt="RRR" Width="500px">
+</div>
+     <p class="ind" > <b>background-repeat : repeat-x ;</b>  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  Sandalwood : KGF;    
+  <br>
+  <b> background: repeat-x; </b>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Indian Film : KGF;</P> 
+  <div>
+        <img class="img" src="https://www.filmyamit.com/wp-content/uploads/2022/08/kgf.jpg" alt="KGF" Width="500px">
+   
+ </div>
+    
+ <br>
+    <hr id="line1">
+
+   <div>
+    <h2>1. CSS Grid</h2>
+    <p class="text" >At last finishing  we have two axes: Inline and block. Those don't change based on a specific direction. For this section, the plates are desserts.
+  <br>
+      </p>
+    
+    </div>
+    <img class="img" src="./deserts.png" alt="deserts" height="150px" width="400px">
+<br>
+ 
+     <p1 style="color: rgb(80, 130, 15);"> <strong>I saved the best for last, so let's enjoy some desserts with CSS grid:)</strong> </p1> 
+<br>
+
+<div>
+     <img class="img" src="./dst1.png" alt="dst1" height="350px" width="450px">
+    </div>
+   
+    <div>
+      <h2>2. CSS Grid - The Default</h2>
+      <p class="text">For CSS grid, we have two axes: Inline and block. Those don't change based on a specific direction</p>
+    <img class="img" src="./dst2.png" alt="dst2" height="350px" width="450px">
+    
+    <h2>3. Specify columns and rows</h2>
+   <p class="text">We will have two columns and rows. See the next figure.</p>
+
+   <img class="img" src="./dst3.png" alt="dst3"  height="350px" width="450px">
+
+  </div>
+
+  <div>
+    <h2>4. Grid - Justify Items</h2>
+    <p class="text">All the plates should be centred horizontally to their grid area, the first row of plates is close to the top side and the second row is close to the bottom side.
+
+      By using justify-items, we can control how the plates will be aligned to its grid area.</p>
+  <img class="img" src="./dst4.png" alt="dst4" height="350px" width="450px">
+  
+    </div>
+
+
+    <div>
+      <h2>5. Grid - Align Items</h2>
+      <p class="text">
+        Aligning the plates to the center is not enough. To make it better, the plates should be centered vertically and horizontally in its grid area.
+
+        Note: the container is the grid area
+  </p>
+    <img class=img src="./dst5.png" alt="dst4" height="350px" width="450px">
+    
+      </div>
+      <hr>
+  <br>
+  <div>
+    <h1>Thanks for Visiting , reach home safe:)</h1>
+  </div>
+  
+</div>
+  
+  </body>
+</html>
+    
